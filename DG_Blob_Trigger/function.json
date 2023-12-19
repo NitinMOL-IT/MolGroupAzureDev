@@ -1,0 +1,17 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "molpearlqrt/Online_ABLOG_Control_File/control_file.txt",
+      "connection": "ADLS_QRT_CON_STRING"
+    },
+  {
+    "name": "starter",
+    "type": "durableClient",
+    "direction": "in"
+  }
+]
+}

@@ -1,0 +1,15 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions==1.17.0
+azure-functions-durable==1.2.6
+azure-storage-blob == 12.14.1
+pandas == 1.5.3
+pyarrow == 11.0.0
+openpyxl == 3.1.0 
+sshtunnel == 0.4.0
+paramiko == 3.3.1
+pymysql == 1.1.0
+azure-functions-durable
+fastparquet== 2023.8.0
